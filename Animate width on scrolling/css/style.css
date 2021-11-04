@@ -1,0 +1,38 @@
+
+h1,
+h2 {
+  text-align: center;
+  margin: 100px 0 0 0;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skills {
+  padding: 50px 25%;
+  background-color: #e2e2e2;
+}
+#skills h2 {
+  margin: 20px 0 40px 0;
+}
+#skills p.title {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skills .progress {
+  position: relative;
+  width: 300px;
+  height: 25px;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+#skills .progress span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: blue;
+  transition: width 1s linear;
+  -webkit-transition: width 1s linear;
+  -moz-transition: width 1s linear;
+  -ms-transition: width 1s linear;
+  -o-transition: width 1s linear;
+}
